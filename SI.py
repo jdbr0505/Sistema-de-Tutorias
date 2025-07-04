@@ -1,5 +1,5 @@
 import tkinter as tk; from tkinter import ttk; from datetime import datetime
-class SistemadeTutorias: 
+class SistemadeTutorias:  
     def __init__(self, root):
         self.root = root; self.root.title("Registro de Tutorias"); self.registros = []  
         ttk.Label(root, text="Asignatura:").grid(row=0, column=0); self.asignatura = ttk.Combobox(root, values=["Sistemas de Informacion", "Aplicaciones Moviles", "Electiva II", "Desarrollo de Entorno Web", "Servicios Telematicos", "Seguridad Informatica"]); self.asignatura.grid(row=0, column=1)
